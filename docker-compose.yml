@@ -1,0 +1,7 @@
+services:
+  mcp-server:
+    build: .
+    volumes:
+      - ./src:/app/src
+    stdin_open: true
+    tty: true
